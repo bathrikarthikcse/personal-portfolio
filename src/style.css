@@ -138,3 +138,6 @@
 
 /* V7: save feedback beside the controls */
 .admin-v6 .save-feedback-wrap:empty{display:none}.admin-v6 .save-feedback{margin-top:18px;padding:14px 16px;border:1px solid #c7dbd0;border-radius:12px;background:#eef5ef;color:#245e50;overflow-wrap:anywhere}.admin-v6 .save-feedback.error{border-color:#e0bab6;background:#fff1ef;color:#933d37}.admin-v6 .save-feedback.success{border-color:#b8d8c3;background:#edf8f0;color:#246348}.admin-v6 .save-feedback-heading{display:flex;align-items:center;gap:10px}.admin-v6 .save-feedback p{font-size:13px;line-height:1.55;margin-top:5px}.save-spinner{display:inline-block;flex:0 0 18px;width:18px;height:18px;border-radius:50%;border:2px solid #a4c5b6;border-top-color:#286f59;animation:saveSpin .8s linear infinite}@keyframes saveSpin{to{transform:rotate(360deg)}}.admin-v6 [aria-disabled=true]{opacity:.55;cursor:wait}@media(prefers-reduced-motion:reduce){.save-spinner{animation:none}}
+
+/* V8: justified About Me biography, with natural final line. */
+.about-story .lead{text-align:justify;text-align-last:left;overflow-wrap:break-word;}
