@@ -141,3 +141,10 @@
 
 /* V8: justified About Me biography, with natural final line. */
 .about-story .lead{text-align:justify;text-align-last:left;overflow-wrap:break-word;}
+
+/* V9 final: navigation belongs to the document, not the viewport. */
+.site .topbar{position:relative;top:auto;z-index:20}
+html{scroll-padding-top:18px}
+.site .scroll-progress{display:none}
+.site .about-story p.lead{text-align:justify;text-align-last:left;overflow-wrap:break-word;hyphens:auto}
+.release-marker{font-size:.72rem;opacity:.72;letter-spacing:.035em}
