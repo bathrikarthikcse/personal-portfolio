@@ -148,3 +148,9 @@ html{scroll-padding-top:18px}
 .site .scroll-progress{display:none}
 .site .about-story p.lead{text-align:justify;text-align-last:left;overflow-wrap:break-word;hyphens:auto}
 .release-marker{font-size:.72rem;opacity:.72;letter-spacing:.035em}
+
+/* V10: independent founder line, preserving the editable headline. */
+.hero-headline{display:flex;flex-direction:column;gap:5px;min-width:0;animation:enter .75s .17s both}
+.hero-headline .name{margin:0;text-wrap:balance;text-align:left}
+.hero-headline .hero-founder{font-size:clamp(18px,1.8vw,23px);font-weight:650;color:var(--accent);line-height:1.5;letter-spacing:-.018em;margin:0;text-align:left}
+@media(prefers-reduced-motion:reduce){.hero-headline{animation:none!important}}
