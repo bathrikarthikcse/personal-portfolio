@@ -154,3 +154,6 @@ html{scroll-padding-top:18px}
 .hero-headline .name{margin:0;text-wrap:balance;text-align:left}
 .hero-headline .hero-founder{font-size:clamp(18px,1.8vw,23px);font-weight:650;color:var(--accent);line-height:1.5;letter-spacing:-.018em;margin:0;text-align:left}
 @media(prefers-reduced-motion:reduce){.hero-headline{animation:none!important}}
+
+/* Final release: streamlined public footer and visible keyboard focus. */
+.contact-bottom{justify-content:center}.site a:focus-visible,.site button:focus-visible,.admin a:focus-visible,.admin button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.hero-headline .name{line-height:1.45}.project-card .project-actions{flex-wrap:wrap}
