@@ -112,3 +112,23 @@
 .portrait-label-agents{bottom:9%;left:24%;animation-delay:-3s}
 @media(max-width:900px){.portrait-stage{min-height:520px}.portrait-frame{inset:4% 3% 3%}.portrait-label-vibe{right:0}.portrait-label-code{right:0}}
 @media(max-width:600px){.square-skills .square-skill{width:min(100%,190px)}.portrait-stage{min-height:430px}.portrait-frame{inset:6% 2% 2%}.portrait-orbit-label{font-size:8px;padding:6px 8px}.portrait-label-ai{left:1%}.portrait-label-code{right:0}.portrait-label-data{left:0}.portrait-label-ml{top:10%;left:25%}.portrait-label-vibe{top:56%;right:0}.portrait-label-art{bottom:18%;right:3%}.portrait-label-agents{bottom:10%;left:23%}}
+
+/* Balanced portrait keyword positions: labels sit on the sides, away from face and shoes. */
+.portrait-stage .portrait-label-ai{top:19%;left:12%;right:auto;bottom:auto}
+.portrait-stage .portrait-label-ml{top:36%;left:7%;right:auto;bottom:auto}
+.portrait-stage .portrait-label-data{top:57%;left:8%;right:auto;bottom:auto}
+.portrait-stage .portrait-label-agents{top:76%;left:12%;right:auto;bottom:auto}
+.portrait-stage .portrait-label-code{top:23%;right:10%;left:auto;bottom:auto}
+.portrait-stage .portrait-label-vibe{top:48%;right:3%;left:auto;bottom:auto}
+.portrait-stage .portrait-label-art{top:71%;right:12%;left:auto;bottom:auto}
+@media(max-width:600px){
+ .portrait-stage .portrait-label-ai{top:19%;left:8%}
+ .portrait-stage .portrait-label-ml{top:36%;left:3%}
+ .portrait-stage .portrait-label-data{top:57%;left:3%}
+ .portrait-stage .portrait-label-agents{top:76%;left:5%}
+ .portrait-stage .portrait-label-code{top:23%;right:5%}
+ .portrait-stage .portrait-label-vibe{top:48%;right:0}
+ .portrait-stage .portrait-label-art{top:71%;right:8%}
+ .portrait-stage .portrait-orbit-label{font-size:8px;padding:5px 7px;letter-spacing:.08em}
+}
+@media(max-width:360px){.portrait-stage .portrait-label-vibe{top:63%;right:0}.portrait-stage .portrait-label-art{top:79%;right:5%}.portrait-stage .portrait-label-agents{left:0}}
